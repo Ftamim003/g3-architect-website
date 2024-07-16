@@ -169,7 +169,32 @@ main > section{
     max-width: 540px;
 }
 
+/* feature related styles */
 
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+
+.features{
+    gap: 140px;
+}
+
+.feature-title{
+    color: #131313;
+    font-weight: 600;
+    font-size: 1.25;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.feature-card-container{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
 
 /* sponsor related styles */
 .sponsor-info{
